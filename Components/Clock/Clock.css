@@ -1,0 +1,11 @@
+.clock {
+  font-size: 3.2rem;
+  color: #192a56;
+  margin-bottom: 10px;
+}
+
+.clock .day {
+  color: #192a56;
+  font-size: 1.2rem;
+  text-align: center;
+}

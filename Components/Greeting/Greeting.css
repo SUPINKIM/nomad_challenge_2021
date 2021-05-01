@@ -1,0 +1,90 @@
+.greeting-box {
+  width: 600px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.greeting-box h4 {
+  width: 100%;
+  padding-top: 10px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.greeting {
+  width: 100%;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.greeting-form {
+  margin-bottom: 10px;
+}
+
+.greeting-box form {
+  height: 50px;
+  padding-top: 15px;
+}
+
+form input {
+  all: unset;
+  border-bottom: 1px solid #333;
+  width: 300px;
+}
+
+form button {
+  all: unset;
+  margin-left: 20px;
+  width: 90px;
+  height: 40px;
+  line-height: 80%;
+  background-color: #f8c291;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.greeting-box ul {
+  width: 100%;
+  max-height: 0px;
+  overflow: hidden;
+  text-align: center;
+  list-style: none;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  height: 35px;
+  line-height: 35px;
+  font-size: 0.9rem;
+}
+
+.greeting .list:hover + ul {
+  max-height: 200px;
+}
+
+.greeting ul:hover {
+  max-height: 200px;
+}
+
+.greeting li {
+  cursor: pointer;
+  margin: 5px;
+  background-color: #ffeaa7;
+  width: fit-content;
+}
+
+.logout {
+  all: unset;
+  margin-left: 20px;
+  width: 90px;
+  height: 40px;
+  line-height: 80%;
+  cursor: pointer;
+  border-bottom: 1px solid #f8c291;
+}
